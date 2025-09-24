@@ -92,7 +92,6 @@ Challenges Faced
 
 
 Conclusion
-
 The Study Plan Generator backend successfully demonstrates the integration of modern capabilities with robust API design. The implementation provides an easy and nice foundation for personalized learning planner, with strong emphasis on input validation, error handling, and user experience.
 
 Key achievements include:

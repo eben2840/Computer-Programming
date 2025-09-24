@@ -2,8 +2,10 @@
 Study Plan Generator Python3 Backend & Flutter Frontend - Project Report
 
 <!-- Project Overview -->
-
-
+<video width="560" height="315" controls>
+  <source src="assets/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag. You can <a href="assets/demo.mp4">download the video here</a>.
+</video>
 
 Steps to fun this project:
 -make sure to you have python3 > installed on your PC with 'python --version'
@@ -24,7 +26,7 @@ Technology Stack
 - Framework: FastAPI (Python web framework for building APIs)
 - Integration: Google Generative (Gemini 1.5-flash model)
 - Data Validation: Pydantic (for request/response models)
-- Server: Uvicorn (ASGI server for FastAPI)
+- Server: Uvicorn 
 - Environment Management: python-dotenv (for API key handling)
 - Frontend Compatibility: CORS middleware for Flutter app integration
 

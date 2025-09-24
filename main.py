@@ -13,7 +13,7 @@ import re
 
 
 
-# I first of all initialize FastAPI app
+# I first of all initialize FastAPI app using
 # https://ai.google.dev/gemini-api/docs/api-key
 
 app = FastAPI(
