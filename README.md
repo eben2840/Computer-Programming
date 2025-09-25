@@ -2,23 +2,23 @@
 Study Plan Generator Python3 Backend & Flutter Frontend - Project Report
 
 <!-- Project Overview --> 
-<video width="560" height="315" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag. You can <a href="assets/demo.mp4">download the video here</a>.
-</video>
+![Demo](assets/demo.gif)
 
-Steps to fun this project:
--make sure to you have python3 > installed on your PC with 'python --version'
--Run pip install -r requirements.txt to get all the depencies 
--source into the environment file using "source venv/bin/activate"
--then lastly run python3 main.py
--The API will be available at `http://localhost:8000`
--Now get the study endpoint at `http://localhost:8000/plan`
-
-
-The Study Plan Generator is a backend service built with FastAPI that leverages Google Gemini to create personalized study plans for programming languages. The system allows users to input their preferred programming languages, available study days, duration in months, and preferred study time, then generates comprehensive, structured learning plans tailored to their schedule and goals.
+Project Overview
+The Study Plan Generator is a backend service built with FastAPI that leverages Google Gemini to create study plans. The system allows users to input their preferred programming languages, available study days, duration in months, and preferred study time, then generates comprehensive, structured learning plans tailored to their schedule and goals.
 
 The project serves as the backend API for a Flutter mobile application, providing RESTful endpoints for study plan generation while ensuring cross-origin compatibility through CORS middleware.
+
+Steps to fun this project:
+- make sure to you have python3 > installed on your PC with 'python --version'
+- Run pip install -r requirements.txt to get all the depencies 
+- source into the environment file using "source venv/bin/activate"
+- then lastly run python3 main.py
+- The API will be available at `http://localhost:8000`
+- Now get the study endpoint at `http://localhost:8000/plan`
+
+
+
 
 Architecture and Implementation
 
